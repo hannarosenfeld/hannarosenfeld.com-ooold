@@ -1,0 +1,35 @@
+mport React, { useEffect, useState } from 'react';
+
+import Typewriter from 'typewriter-effect';
+
+const TypeWritter = () => {
+  const [showLinks, setShowLinks] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowLinks(true);
+    }, 20400);
+  }, []);
+
+  return (
+    <div className="typewriter">
+      <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+            .typeString('Hello World!')
+            .pauseFor(1000)
+            .deleteAll()
+            .typeString(
+              'I am a web developer living and working in Philadelphia, PA.'
+            )
+            .typeString(' Contact me through my social links below: ')
+            .pauseFor(1000)
+            .start();
+        }}
+      />
+      {showLinks && <div>your links</div>}
+    </div>
+  );
+};
+
+export default TypeWritter;

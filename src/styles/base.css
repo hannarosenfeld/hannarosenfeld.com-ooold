@@ -95,13 +95,21 @@ p {
 }
 
 .typewriter {
+    height: 8vh;
     color:  #d1dce5;
 }
 
-.social {
+.social-links {
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+}
+
+.social-link {
     color: #d53f8c;
     text-decoration: none;
     margin-left: 1em;
+    padding-bottom: 0.3em;
 }
 
 footer {
