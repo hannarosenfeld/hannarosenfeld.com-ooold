@@ -8,11 +8,11 @@ const IndexPage = () => {
     return (
         <>
             <header>
-                <h1 className="main-heading">
-                    <Link to="/">hzr</Link>
+                <h1>
+                    <Link className="hzr" to="/">&lt;hzr/&gt;</Link>
                 </h1>
                 <div>
-                    <Link to="https://github.com/hannarosenfeld">github</Link>
+                    <Link className="social"to="https://github.com/hannarosenfeld">&gt; github</Link>
                 </div>
             </header>
         </>
