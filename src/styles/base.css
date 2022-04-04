@@ -59,7 +59,7 @@
     --color-text-light: : #FFFAF0;
     --color-heading:
     --color-heading-gold: palegoldenrod;
-    --color-accent: #d1dce5;
+    --color-accent:;
 }
 
 /* HTML elements */
@@ -88,6 +88,14 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    color:  #d1dce5;
+}
+
+.typewriter {
+    color:  #d1dce5;
 }
 
 .social {
