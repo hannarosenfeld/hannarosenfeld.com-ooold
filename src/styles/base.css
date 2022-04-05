@@ -95,7 +95,8 @@ p {
 }
 
 .typewriter {
-    min-height: 10vh;
+    min-height: 9vh;
+    margin-bottom: 0.8em;
     color:  #d1dce5;
 }
 
